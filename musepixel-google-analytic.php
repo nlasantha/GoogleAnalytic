@@ -6,7 +6,7 @@ Description: Adds a Google analytics trascking code to the <head> of your theme,
 Author: Nuwan Lasantha
 Version: 1.2
 
-function wpmudev_google_analytics() { ?>
+function musepixel_google_analytic() { ?>
 
 <?php }
-add_action( 'wp_head', 'wpmudev_google_analytics', 10 )
+add_action( 'wp_head', 'musepixel_google_analytic.php', 10 )
